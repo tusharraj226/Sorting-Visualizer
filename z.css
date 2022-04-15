@@ -1,0 +1,61 @@
+.mySlides {
+	display: none;
+}
+
+body {
+	background-color: rgb(73, 73, 80);
+	
+}
+
+.head {
+	margin-top: 20px;
+	margin-right: 20vw;
+	margin-left: 20vw;
+	text-align: center;
+	font-size: 30px;
+	
+	color: cornsilk;
+	
+	font-weight: bolder;
+}
+
+.data-container {
+	width: 600px;
+	height: 384px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.bar {
+	width: 28px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: rgb(0, 183, 255);
+	transition: 0.2s all ease;
+}
+
+.bar__id {
+	position: absolute;
+	top: -24px;
+	width: 100%;
+	text-align: center;
+}
+.btn1 {
+	
+	font-weight: bolder;
+	background-color:rgb(2, 2, 27);
+	color: blue;
+	float: left;
+	border-color: rgb(28, 135, 223);
+	margin: .3em;
+}
+.btn2 {
+	
+	font-weight: bolder;
+	background-color:rgb(2, 2, 27);
+	border-color: rgb(28, 135, 223);
+	color: blue;
+    float: right;
+    margin: .3em;
+}
